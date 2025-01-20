@@ -1,6 +1,6 @@
 # API Pencarian Data Mahasiswa
 
-Website REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari dan mengelola data mahasiswa. Aplikasi ini mengambil data dari link API eksternal, menyimpannya dalam cache untuk kinerja, dan menyediakan beberapa endpoint pencarian dengan autentikasi.
+Project REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari dan mengelola data mahasiswa. Project ini mengambil data dari link API eksternal, menyimpannya dalam cache untuk kinerja, dan menyediakan beberapa endpoint pencarian dengan autentikasi.
 
 ## Link Download File SQL Database
 - [Link Download](https://drive.google.com/file/d/1bxe-y8Ium-B8zqlPb5HxzZJ9vAz4BKIH/view?usp=sharing)
@@ -16,10 +16,10 @@ Website REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari da
 - Data Caching untuk meningkatkan kinerja
 - Autentikasi Sanctum untuk keamanan API
 
-## Persyaratan
+## Installasi
 
 - PHP >= 8.2
-- Komposer
+- Composer
 - Laravel 11.x
 - MySQL/PostgreSQL
 
@@ -76,7 +76,7 @@ php artisan serve
 
 ## Otentikasi
 
-API menggunakan Laravel Sanctum untuk autentikasi. Untuk mengakses rute yang dilindungi:
+API menggunakan Laravel Sanctum untuk autentikasi. Untuk mengakses rute yang perlu autentikasi:
 
 1. Dapatkan token dengan masuk melalui endpoint `/api/login`
 2. Sertakan token dalam permintaan berikutnya menggunakan header `Authorization`:
@@ -86,7 +86,7 @@ Otorisasi: Pembawa <token User Login>
 
 ## Caching
 
-Website ini mengimplementasikan caching untuk sumber data eksternal dengan batas waktu 1 jam untuk mengoptimalkan kinerja dan mengurangi panggilan API eksternal.
+Project REST API ini mengimplementasikan caching untuk sumber data eksternal dengan batas waktu 1 jam untuk mengoptimalkan kinerja dan mengurangi panggilan API eksternal.
 
 ## Penanganan Kesalahan
 
