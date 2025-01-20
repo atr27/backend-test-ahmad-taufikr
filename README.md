@@ -16,7 +16,7 @@ Project REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari da
 - Data Caching untuk meningkatkan kinerja
 - Autentikasi Sanctum untuk keamanan API
 
-## Yang Diinstal dan Alat Bantu Konfigurasi
+## Syarat Instalasi
 
 - PHP >= 8.2
 - Composer
