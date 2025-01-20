@@ -74,7 +74,7 @@ php artisan serve
 - `GET /api/search/nim/{nim}` - Mencari siswa berdasarkan Nomor Induk Siswa
 - `GET /api/search/ymd/{ymd}` - Mencari mahasiswa berdasarkan tanggal
 
-## Otentikasi
+## Autentikasi
 
 API menggunakan Laravel Sanctum untuk autentikasi. Untuk mengakses rute yang perlu autentikasi:
 
