@@ -1,6 +1,6 @@
 # API Pencarian Data Mahasiswa
 
-Website REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari dan mengelola data mahasiswa. Aplikasi ini mengambil data dari sumber eksternal, menyimpannya dalam cache untuk kinerja, dan menyediakan beberapa endpoint pencarian dengan otentikasi.
+Website REST API ini berbasis Laravel yang menyediakan endpoint untuk mencari dan mengelola data mahasiswa. Aplikasi ini mengambil data dari link API eksternal, menyimpannya dalam cache untuk kinerja, dan menyediakan beberapa endpoint pencarian dengan autentikasi.
 
 ## Link Download File SQL Database
 - [Link Download](https://drive.google.com/file/d/1bxe-y8Ium-B8zqlPb5HxzZJ9vAz4BKIH/view?usp=sharing)
